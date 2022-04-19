@@ -1,0 +1,13 @@
+.header {
+  color: #fff;
+  background-color: $color-dark;
+}
+
+.header-inner {
+  @include inner;
+}
+
+.header-wrap {
+  display: flex;
+  align-items: center;
+}
