@@ -1,5 +1,9 @@
 .header {
-  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
   background-color: $color-dark;
 }
 
@@ -9,5 +13,34 @@
 
 .header-wrap {
   display: flex;
+  justify-content: space-between;
   align-items: center;
+}
+
+.header-logo {
+  @include logo;
+}
+
+.menu-list {
+  padding: 0;
+  display: flex;
+  list-style: none;
+}
+
+.menu-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 33px 25px;
+  margin-left: 10px;
+}
+
+.menu-item:first-child {
+  background-color: $color-coral;
+}
+
+.menu-text {
+  color: #fff;
+  text-decoration: none;
 }

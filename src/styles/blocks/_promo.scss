@@ -1,0 +1,12 @@
+.promo {
+  background-image: url(../images/african-american.png);
+}
+
+.promo-fade {
+  padding: 200px 0 204px 0;
+  background-color: rgba($color-dark, .4);
+}
+
+.promo-inner {
+  @include inner;
+}

@@ -1,0 +1,26 @@
+.work {
+  background-color: rgba($color-dark, 0);
+}
+
+.work-inner {
+  @include inner;
+}
+
+.work-visual {
+ justify-content: space-between;
+}
+
+.work-figure {
+  position: relative;
+}
+
+.work-img-desc {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+  background-color: rgba($color-dark, .4);
+}

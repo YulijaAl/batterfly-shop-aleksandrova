@@ -1,0 +1,7 @@
+.order {
+  background-color: rgba($color-dark, .1);
+}
+
+.order-inner {
+  @include inner;
+}

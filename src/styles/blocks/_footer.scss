@@ -1,0 +1,11 @@
+.footer {
+  background-color: $color-dark
+}
+
+.footer-inner {
+  @include inner;
+}
+
+.footer-logo {
+  @include logo;
+}
