@@ -14,4 +14,12 @@
   align-items: center;
 }
 
+@mixin title {
+  font-family: $font-open;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 87px;
+  color: #333;
+  text-align: center;
+}
 

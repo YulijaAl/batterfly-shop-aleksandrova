@@ -5,3 +5,14 @@
 .order-inner {
   @include inner;
 }
+
+.order-title {
+  @include title;
+}
+
+.order-text {
+  font-size: 28px;
+  line-height: 38px;
+  color: $color-dark;
+  margin: 37px 0 90px;
+}
