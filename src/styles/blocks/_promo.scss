@@ -1,5 +1,10 @@
 .promo {
+  text-align: center;
+  color: #fff;
   background-image: url(../images/african-american.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .promo-fade {
@@ -9,4 +14,11 @@
 
 .promo-inner {
   @include inner;
+}
+
+.promo-title {
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 98px;
+  margin-bottom: 110px;
 }

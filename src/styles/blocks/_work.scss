@@ -4,6 +4,7 @@
 
 .work-inner {
   @include inner;
+  margin: 130px auto
 }
 
 .work-title {
@@ -28,7 +29,15 @@
   left: 0;
   width: 100%;
   padding: 15px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
   text-align: center;
   color: #fff;
   background-color: rgba($color-dark, .4);
+}
+
+.btn-flex {
+  display: flex;
+  justify-content: center;
 }

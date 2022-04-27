@@ -1,14 +1,15 @@
 .form {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   width: 100%;
-  margin: 0 auto;
+  margin-bottom: 130px;
 }
 
 .form-field {
+  display: inline-block;
   flex-basis: 33,33%;
-  margin-bottom: 30px;
-  border: 1px solid green;
+  max-width: 412px;
 
   &:last-child {
     margin-bottom: 0;
@@ -17,7 +18,12 @@
 
 .form-label {
   display: inline-block;
-
+  font-family: $font-open;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  margin-bottom: 8px;
 }
 
 .form-input {
